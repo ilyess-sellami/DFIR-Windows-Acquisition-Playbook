@@ -66,9 +66,11 @@ For this reason, investigators always prefer running FTK Imager from a clean ext
 
 To perform disk imaging, connect a clean external storage device and launch FTK Imager with administrative privileges from a trusted forensic workstation or portable USB environment.
 
-Select the option to create a disk image and choose the physical drive corresponding to the target Windows system. Configure the destination path on the external drive and select a forensic image format such as E01.
+Select the option to create a disk image and choose the **logical drive option**, then select the **C:\ partition (Windows system volume)** of the target machine. This approach is faster and requires less storage compared to physical acquisition, while still capturing all active files and folder structures from the operating system perspective.
 
-During acquisition, enable hash verification (MD5 and SHA256) to ensure integrity of the evidence. FTK Imager will then perform a bit-by-bit copy of the disk, including active, deleted, and unallocated space.
+Configure the destination path on the external drive and select a forensic image format such as E01.
+
+During acquisition, enable hash verification (MD5 and SHA256) to ensure integrity of the evidence. FTK Imager will then perform a logical copy of the selected volume, including all accessible files, system data, and user data, but excluding unallocated space and most deleted artifacts.
 
 Once the acquisition is complete, the resulting image and hash values must be securely stored and documented for chain-of-custody purposes.
 
