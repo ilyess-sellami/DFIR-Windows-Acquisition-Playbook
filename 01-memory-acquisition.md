@@ -1,5 +1,11 @@
 # 🧠 Memory Acquisition (RAM Forensics)
 
+<p align="center">
+  <img src="docs/memory-acquisition-banner.png" alt="Memory Acquisition Banner" width="100%" />
+</p>
+
+---
+
 ## ❓ Why are we collecting memory first?
 
 When a Windows system is compromised, the most valuable evidence often exists in **RAM (volatile memory)**.
