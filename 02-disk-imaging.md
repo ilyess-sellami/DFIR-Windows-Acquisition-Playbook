@@ -33,7 +33,7 @@ We focus on trusted, widely used, free DFIR tools:
 ### 1. FTK Imager (Recommended)
 
 <p align="center">
-  <img src="docs/ftk-imager.png" alt="FTK Imager" width="100%" />
+  <img src="docs/ftk-imager.png" alt="FTK Imager" />
 </p>
 
 FTK Imager is one of the most widely used forensic imaging tools in DFIR investigations. It allows investigators to create full disk images while preserving evidence integrity and supports hashing for verification.
@@ -43,7 +43,7 @@ FTK Imager is one of the most widely used forensic imaging tools in DFIR investi
 ### 2. Magnet Acquire
 
 <p align="center">
-  <img src="docs/magnet-acquire.jpg" alt="Magnet Acquire" width="100%" />
+  <img src="docs/magnet-acquire.jpg" alt="Magnet Acquire" />
 </p>
 
 Magnet Acquire is a lightweight Windows forensic acquisition tool used to capture disk images and key artifacts. It is designed for simplicity and reliability in incident response workflows.
