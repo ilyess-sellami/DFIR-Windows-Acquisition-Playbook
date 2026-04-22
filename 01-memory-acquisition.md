@@ -54,6 +54,8 @@ We focus on **trusted, widely used, free DFIR tools**:
 - Simple one-click memory capture tool
 - Widely used in incident response
 
+---
+
 ### 🔧 2. Magnet RAM Capture
 
 <p align="center">
@@ -62,6 +64,8 @@ We focus on **trusted, widely used, free DFIR tools**:
 
 - Lightweight GUI-based tool
 - Good for forensic beginners
+
+---
 
 ### 🔧 3. Belkasoft Live RAM Capturer
 
@@ -77,12 +81,16 @@ We focus on **trusted, widely used, free DFIR tools**:
 - Plug in a clean USB drive
 - Ensure external storage has enough free space (RAM size × 1.2 recommended)
 
+---
+
 ### Step 2 — Run as Administrator
 
 Right-click `DumpIt.exe` → Run as Administrator
 You will see a prompt:
 
 ``Proceed with the acquisition ? [y/n]``
+
+---
 
 ### Step 3 — Start Acquisition
 
@@ -94,6 +102,8 @@ DumpIt will:
 - Lock system memory snapshot
 - Begin full RAM capture
 
+---
+
 ### Step 4 — Wait for Completion
 
 Depending on system RAM size:
@@ -101,6 +111,8 @@ Depending on system RAM size:
 - 32+ GB → longer duration
 
 Do NOT interact with system during capture.
+
+---
 
 ### Step 5 — Output File
 
