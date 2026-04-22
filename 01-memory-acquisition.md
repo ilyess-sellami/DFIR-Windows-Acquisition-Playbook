@@ -48,7 +48,7 @@ We focus on **trusted, widely used, free DFIR tools**:
 ### 🔧 1. DumpIt (Recommended)
 
 <p align="center">
-  <img src="docs/dumpit-ram-capture.png" alt="DumpIt RAM Capture" />
+  <img src="docs/dumpit-ram-capture.png" alt="DumpIt RAM Capture" width="100%" />
 </p>
 
 - Simple one-click memory capture tool
@@ -57,7 +57,7 @@ We focus on **trusted, widely used, free DFIR tools**:
 ### 🔧 2. Magnet RAM Capture
 
 <p align="center">
-  <img src="docs/magnet-ram-capture.png" alt="Magnet RAM Capture" />
+  <img src="docs/magnet-ram-capture.png" alt="Magnet RAM Capture" width="100%" />
 </p>
 
 - Lightweight GUI-based tool
