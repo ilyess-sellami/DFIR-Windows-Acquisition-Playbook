@@ -1,7 +1,5 @@
 # Memory Acquisition (RAM Forensics)
 
----
-
 ## ❓ Why are we collecting memory first?
 
 When a Windows system is compromised, the most valuable evidence often exists in **RAM (volatile memory)**.
