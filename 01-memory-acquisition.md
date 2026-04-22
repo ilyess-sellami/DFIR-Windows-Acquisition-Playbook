@@ -52,6 +52,10 @@ We focus on **trusted, widely used, free DFIR tools**:
 
 ### 🔧 2. Magnet RAM Capture
 
+<p align="center">
+  <img src="docs/magnet-ram-capture.png" alt="Magnet RAM Capture" />
+</p>
+
 - Lightweight GUI-based tool
 - Good for forensic beginners
 
