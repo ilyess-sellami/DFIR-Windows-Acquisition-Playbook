@@ -48,3 +48,15 @@ This playbook provides a **standardized DFIR acquisition workflow** to:
 7. [Browser Artifacts](07-browser-artifacts.md)
 8. [Timeline Artifacts (MFT, Prefetch, Amcache)](08-timeline-artifacts.md)
 9. [Network Artifacts](09-network-artifacts.md)
+
+---
+
+## 📌 Operational Summary
+
+This repository is designed as a **structured DFIR acquisition guide** to ensure consistent, repeatable, and forensically sound evidence collection on compromised Windows systems.
+
+It should be used as a reference during:
+- Incident response investigations
+- SOC escalation procedures
+- Digital forensic analysis
+- Threat hunting engagements
