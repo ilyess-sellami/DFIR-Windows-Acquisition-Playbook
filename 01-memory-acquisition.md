@@ -24,19 +24,15 @@ This makes memory acquisition the **highest priority step in any DFIR investigat
 
 Memory analysis helps investigators uncover:
 
-1. Fileless Malware : Attackers often execute payloads directly in memory without writing files to disk.
+1. **Fileless Malware :** Attackers often execute payloads directly in memory without writing files to disk.
 
-### 🔹 2. Injected Code & Processes
-Malware may inject code into legitimate processes (e.g., explorer.exe, svchost.exe).
+2. **Injected Code & Processes :** Malware may inject code into legitimate processes (e.g., explorer.exe, svchost.exe).
 
-### 🔹 3. Active Network Connections
-Live C2 (Command & Control) sessions are visible only in memory.
+3. **Active Network Connections :** Live C2 (Command & Control) sessions are visible only in memory.
 
-### 🔹 4. Credentials & Secrets
-Memory may contain Passwords, Kerberos tickets, API keys, Encryption keys, ...
+4. **Credentials & Secrets :** Memory may contain Passwords, Kerberos tickets, API keys, Encryption keys, ...
 
-### 🔹 5. Decrypted Payloads
-Even if malware is encrypted on disk, it is often **decrypted in RAM during execution**.
+5. **Decrypted Payloads :** Even if malware is encrypted on disk, it is often **decrypted in RAM during execution**.
 
 ---
 
