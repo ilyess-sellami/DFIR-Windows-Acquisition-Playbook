@@ -28,11 +28,7 @@ Malware may inject code into legitimate processes (e.g., explorer.exe, svchost.e
 Live C2 (Command & Control) sessions are visible only in memory.
 
 ### 🔹 4. Credentials & Secrets
-Memory may contain:
-- Passwords
-- Kerberos tickets
-- API keys
-- Encryption keys
+Memory may contain Passwords, Kerberos tickets, API keys, Encryption keys, ...
 
 ### 🔹 5. Decrypted Payloads
 Even if malware is encrypted on disk, it is often **decrypted in RAM during execution**.
@@ -48,14 +44,10 @@ We focus on **trusted, widely used, free DFIR tools**:
 - Simple one-click memory capture tool
 - Widely used in incident response
 
----
-
 ### 🔧 2. Magnet RAM Capture
 
 - Lightweight GUI-based tool
 - Good for forensic beginners
-
----
 
 ### 🔧 3. Belkasoft Live RAM Capturer
 
