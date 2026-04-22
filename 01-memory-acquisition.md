@@ -1,4 +1,4 @@
-# 🧠 Memory Acquisition (RAM Forensics)
+# Memory Acquisition (RAM Forensics)
 
 <p align="center">
   <img src="docs/memory-acquisition-banner.png" alt="Memory Acquisition Banner" width="100%" />
