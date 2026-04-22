@@ -66,7 +66,21 @@ For this reason, investigators always prefer running FTK Imager from a clean ext
 
 To perform disk imaging, connect a clean external storage device and launch FTK Imager with administrative privileges from a trusted forensic workstation or portable USB environment.
 
-Select the option to create a disk image and choose the **logical drive option**, then select the **C:\ partition (Windows system volume)** of the target machine. This approach is faster and requires less storage compared to physical acquisition, while still capturing all active files and folder structures from the operating system perspective.
+<p align="center">
+  <img src="docs/ftk-imager.png" alt="FTK Imager run as administrator" />
+</p>
+
+Select the option to create a disk image and choose the **logical drive option**.
+
+<p align="center">
+  <img src="docs/ftk-imager-select-source.png" alt="FTK Imager Select Source" />
+</p>
+
+Select the **C:\ partition (Windows system volume)** of the target machine. This approach is faster and requires less storage compared to physical acquisition, while still capturing all active files and folder structures from the operating system perspective.
+
+<p align="center">
+  <img src="docs/ftk-imager-select-drive.png" alt="FTK Imager Select Drive" />
+</p>
 
 Configure the destination path on the external drive and select a forensic image format such as E01.
 
