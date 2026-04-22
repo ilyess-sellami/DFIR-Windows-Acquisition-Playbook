@@ -2,7 +2,7 @@
 
 ---
 
-## ❓ Why are we collecting memory first?
+## Why are we collecting memory first?
 
 When a Windows system is compromised, the most valuable evidence often exists in **RAM (volatile memory)**.
 
@@ -12,11 +12,11 @@ This makes memory acquisition the **highest priority step in any DFIR investigat
 
 **⚠️ Golden Rule of DFIR :**
 
-> 🧠 “If the machine is ON → memory must be acquired FIRST.”
+> “If the machine is ON → memory must be acquired FIRST.”
 
 ---
 
-## 🎯 Why Memory Forensics is Critical
+## Why Memory Forensics is Critical
 
 Memory analysis helps investigators uncover:
 
@@ -32,11 +32,11 @@ Memory analysis helps investigators uncover:
 
 ---
 
-## 🧰 Best Free Tools for Memory Acquisition
+## Best Free Tools for Memory Acquisition
 
 We focus on **trusted, widely used, free DFIR tools**:
 
-### 🔧 1. DumpIt (Recommended)
+### 1. DumpIt (Recommended)
 
 <p align="center">
   <img src="docs/dumpit-ram-capture.png" alt="DumpIt RAM Capture" width="100%" />
@@ -46,7 +46,7 @@ DumpIt is a lightweight one-click tool used to capture full physical memory in D
 
 ---
 
-### 🔧 2. Magnet RAM Capture
+### 2. Magnet RAM Capture
 
 <p align="center">
   <img src="docs/magnet-ram-capture.png" alt="Magnet RAM Capture" width="100%" height="60%" />
@@ -56,7 +56,7 @@ Magnet RAM Capture is a free forensic tool used to acquire physical memory from 
 
 ---
 
-### 🔧 3. Belkasoft Live RAM Capturer
+### 3. Belkasoft Live RAM Capturer
 
 <p align="center">
   <img src="docs/belkasoft-ram-capture.png" alt="Belkasoft RAM Capture" width="100%" />
@@ -67,7 +67,7 @@ It is commonly used in DFIR cases where stealth and fast acquisition are require
 
 ---
 
-## 🧪 Recommended Method: DumpIt (Step-by-Step)
+## Recommended Method: DumpIt (Step-by-Step)
 
 <p align="center">
   <img src="docs/dumpit-full-ram-capture.png" alt="DumpIt Full RAM Capture" width="100%" />
