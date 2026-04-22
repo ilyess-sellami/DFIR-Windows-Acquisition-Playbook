@@ -24,8 +24,7 @@ This makes memory acquisition the **highest priority step in any DFIR investigat
 
 Memory analysis helps investigators uncover:
 
-### 🔹 1. Fileless Malware
-Attackers often execute payloads directly in memory without writing files to disk.
+1. Fileless Malware : Attackers often execute payloads directly in memory without writing files to disk.
 
 ### 🔹 2. Injected Code & Processes
 Malware may inject code into legitimate processes (e.g., explorer.exe, svchost.exe).
@@ -68,6 +67,10 @@ We focus on **trusted, widely used, free DFIR tools**:
 ---
 
 ### 🔧 3. Belkasoft Live RAM Capturer
+
+<p align="center">
+  <img src="docs/belkasoft-ram-capture.png" alt="Belkasoft RAM Capture" width="100%" />
+</p>
 
 - Stealthier acquisition option
 - Minimal footprint on system
