@@ -95,9 +95,7 @@ You will see a prompt:
 
 ### Step 3 — Start Acquisition
 
-Press:
-
-``y``
+Press:  ``y``
 
 DumpIt will:
 - Lock system memory snapshot
