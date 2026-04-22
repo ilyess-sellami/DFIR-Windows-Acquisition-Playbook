@@ -47,6 +47,10 @@ We focus on **trusted, widely used, free DFIR tools**:
 
 ### 🔧 1. DumpIt (Recommended)
 
+<p align="center">
+  <img src="docs/dumpit-ram-capture.png" alt="DumpIt RAM Capture" />
+</p>
+
 - Simple one-click memory capture tool
 - Widely used in incident response
 
