@@ -1,5 +1,12 @@
-# 🛡️ DFIR Windows Acquisition Playbook
+<h1 align="center">🛡️ DFIR Windows Acquisition Playbook</h1>
 
+<p align="center">
+  <img src="docs/dfir-banner.png" alt="DFIR Windows Acquisition Playbook Banner" width="100%" />
+</p>
+
+<p align="center">
+Windows forensic acquisition workflow for incident response and evidence collection
+</p>
 ## ❓ Scenario
 
 A Windows machine is suspected to be **compromised**.
