@@ -73,44 +73,10 @@ It is commonly used in DFIR cases where stealth and fast acquisition are require
 
 ## 🧪 Recommended Method: DumpIt (Step-by-Step)
 
-### Step 1 — Prepare Secure Environment
+<p align="center">
+  <img src="docs/dumpit-full-ram-capture.png" alt="DumpIt Full RAM Capture" width="100%" />
+</p>
 
-- Plug in a clean USB drive
-- Ensure external storage has enough free space (RAM size × 1.2 recommended)
+To perform memory acquisition using DumpIt, start by preparing a secure environment with a clean USB drive and sufficient external storage space (recommended: at least 1.2× the system RAM size). Execute `DumpIt.exe` with administrator privileges, which will prompt you to confirm the acquisition process. Once confirmed by pressing `y`, the tool will begin capturing the full physical memory by locking a snapshot of the system’s RAM.
 
----
-
-### Step 2 — Run as Administrator
-
-Right-click `DumpIt.exe` → Run as Administrator
-You will see a prompt:
-
-``Proceed with the acquisition ? [y/n]``
-
----
-
-### Step 3 — Start Acquisition
-
-Press:  ``y``
-
-DumpIt will:
-- Lock system memory snapshot
-- Begin full RAM capture
-
----
-
-### Step 4 — Wait for Completion
-
-Depending on system RAM size:
-- 4–16 GB → few minutes
-- 32+ GB → longer duration
-
-Do NOT interact with system during capture.
-
----
-
-### Step 5 — Output File
-
-DumpIt generates:
-
-``<hostname>-<date>.raw``
+The acquisition duration depends on the system’s memory size, ranging from a few minutes on smaller systems to longer on high-memory machines. During this process, it is critical to avoid any interaction with the system to preserve evidence integrity. Once completed, DumpIt generates a memory image file in the format `<hostname>-<date>.raw`, which should be securely stored for further forensic analysis.
