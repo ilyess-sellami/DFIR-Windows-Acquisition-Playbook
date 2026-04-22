@@ -39,7 +39,7 @@ We focus on **trusted, widely used, free DFIR tools**:
 ### 1. DumpIt (Recommended)
 
 <p align="center">
-  <img src="docs/dumpit-ram-capture.png" alt="DumpIt RAM Capture" width="100%" />
+  <img src="docs/dumpit-ram-capture.png" alt="DumpIt RAM Capture" />
 </p>
 
 DumpIt is a lightweight one-click tool used to capture full physical memory in DFIR investigations.  It is widely used in incident response due to its speed and minimal system interaction.
@@ -49,7 +49,7 @@ DumpIt is a lightweight one-click tool used to capture full physical memory in D
 ### 2. Magnet RAM Capture
 
 <p align="center">
-  <img src="docs/magnet-ram-capture.png" alt="Magnet RAM Capture" width="100%" height="60%" />
+  <img src="docs/magnet-ram-capture.png" alt="Magnet RAM Capture" />
 </p>
 
 Magnet RAM Capture is a free forensic tool used to acquire physical memory from Windows systems.  It provides a simple GUI interface, making it suitable for quick and reliable evidence collection.
@@ -59,7 +59,7 @@ Magnet RAM Capture is a free forensic tool used to acquire physical memory from 
 ### 3. Belkasoft Live RAM Capturer
 
 <p align="center">
-  <img src="docs/belkasoft-ram-capture.png" alt="Belkasoft RAM Capture" width="100%" />
+  <img src="docs/belkasoft-ram-capture.png" alt="Belkasoft RAM Capture" />
 </p>
 
 Belkasoft Live RAM Capturer is a lightweight forensic tool used to acquire physical memory with minimal system impact.  
@@ -70,7 +70,7 @@ It is commonly used in DFIR cases where stealth and fast acquisition are require
 ## Recommended Method: DumpIt (Step-by-Step)
 
 <p align="center">
-  <img src="docs/dumpit-full-ram-capture.png" alt="DumpIt Full RAM Capture" width="100%" />
+  <img src="docs/dumpit-full-ram-capture.png" alt="DumpIt Full RAM Capture" />
 </p>
 
 To perform memory acquisition using DumpIt, start by preparing a secure environment with a clean USB drive and sufficient external storage space (recommended: at least 1.2× the system RAM size). Execute `DumpIt.exe` with administrator privileges, which will prompt you to confirm the acquisition process. Once confirmed by pressing `y`, the tool will begin capturing the full physical memory by locking a snapshot of the system’s RAM.
