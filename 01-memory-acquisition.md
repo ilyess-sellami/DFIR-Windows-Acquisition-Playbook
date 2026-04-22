@@ -50,8 +50,7 @@ We focus on **trusted, widely used, free DFIR tools**:
   <img src="docs/dumpit-ram-capture.png" alt="DumpIt RAM Capture" width="100%" />
 </p>
 
-- Simple one-click memory capture tool
-- Widely used in incident response
+DumpIt is a lightweight one-click tool used to capture full physical memory in DFIR investigations.  It is widely used in incident response due to its speed and minimal system interaction.
 
 ---
 
@@ -61,8 +60,7 @@ We focus on **trusted, widely used, free DFIR tools**:
   <img src="docs/magnet-ram-capture.png" alt="Magnet RAM Capture" width="100%" height="60%" />
 </p>
 
-- Lightweight GUI-based tool
-- Good for forensic beginners
+Magnet RAM Capture is a free forensic tool used to acquire physical memory from Windows systems.  It provides a simple GUI interface, making it suitable for quick and reliable evidence collection.
 
 ---
 
@@ -72,8 +70,8 @@ We focus on **trusted, widely used, free DFIR tools**:
   <img src="docs/belkasoft-ram-capture.png" alt="Belkasoft RAM Capture" width="100%" />
 </p>
 
-- Stealthier acquisition option
-- Minimal footprint on system
+Belkasoft Live RAM Capturer is a lightweight forensic tool used to acquire physical memory with minimal system impact.  
+It is commonly used in DFIR cases where stealth and fast acquisition are required.
 
 ---
 
