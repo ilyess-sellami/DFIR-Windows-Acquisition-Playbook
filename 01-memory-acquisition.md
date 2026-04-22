@@ -78,13 +78,13 @@ We focus on **trusted, widely used, free DFIR tools**:
 Right-click `DumpIt.exe` → Run as Administrator
 You will see a prompt:
 
-``Do you want to continue? (Y/N)``
+``Proceed with the acquisition ? [y/n]``
 
 ### Step 3 — Start Acquisition
 
 Press:
 
-``Y``
+``y``
 
 DumpIt will:
 - Lock system memory snapshot
