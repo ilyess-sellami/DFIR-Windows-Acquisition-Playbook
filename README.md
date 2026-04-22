@@ -10,7 +10,7 @@
 
 ---
 
-## Scenario
+## ❓ Scenario
 
 A Windows machine is suspected to be **compromised**.
 
@@ -24,7 +24,7 @@ The system may still be **live or already powered off**, requiring a structured 
 
 ---
 
-## Objectives
+## 🎯 Objectives
 
 This playbook provides a **standardized DFIR acquisition workflow** to:
 
@@ -37,7 +37,7 @@ This playbook provides a **standardized DFIR acquisition workflow** to:
 
 ---
 
-## Table of Contents
+## 📚 Table of Contents
 
 1. [Memory Acquisition (RAM Dump)](01-memory-acquisition.md)
 2. [Live System Collection (Processes & Network)](02-live-system-collection.md)
