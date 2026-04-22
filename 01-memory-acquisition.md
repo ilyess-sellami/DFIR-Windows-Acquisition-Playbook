@@ -63,8 +63,6 @@ We focus on **trusted, widely used, free DFIR tools**:
 - Plug in a clean USB drive
 - Ensure external storage has enough free space (RAM size × 1.2 recommended)
 
----
-
 ### Step 2 — Run as Administrator
 
 Right-click `DumpIt.exe` → Run as Administrator
@@ -72,18 +70,15 @@ You will see a prompt:
 
 ``Do you want to continue? (Y/N)``
 
----
-
 ### Step 3 — Start Acquisition
 
 Press:
+
 ``Y``
 
 DumpIt will:
 - Lock system memory snapshot
 - Begin full RAM capture
-
----
 
 ### Step 4 — Wait for Completion
 
@@ -93,9 +88,8 @@ Depending on system RAM size:
 
 Do NOT interact with system during capture.
 
----
-
 ### Step 5 — Output File
+
 DumpIt generates:
 
 ``<hostname>-<date>.raw``
