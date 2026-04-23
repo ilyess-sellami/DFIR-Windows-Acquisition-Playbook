@@ -49,13 +49,11 @@ This is the root of all user activity and contains access to every personal dire
 
 ### AppData (HIGH PRIORITY)
 
-``bash
+```bash
 C:\Users\<USER>\AppData\Roaming\
-
 C:\Users\<USER>\AppData\Local\
-
 C:\Users\<USER>\AppData\LocalLow\
-``
+```
 
 AppData is the **most abused location by malware** for storing payloads, configuration files, persistence mechanisms, and stealthy execution components.
 
@@ -63,13 +61,11 @@ AppData is the **most abused location by malware** for storing payloads, configu
 
 ### Critical sub-paths to prioritize:
 
-``bash
+```bash
 C:\Users\<USER>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
-
 C:\Users\<USER>\AppData\Local\Microsoft\Windows\INetCache\
-
 C:\Users\<USER>\AppData\Local\Packages\
-``
+```
 
 - **Startup →** Common persistence location (auto-executed malware)
 - **INetCache →** Stores downloaded web content and potential payloads
@@ -79,11 +75,10 @@ C:\Users\<USER>\AppData\Local\Packages\
 
 ### Temp Directories (VERY HIGH VALUE)
 
-``bash
+```bash
 C:\Users\<USER>\AppData\Local\Temp\
-
 C:\Windows\Temp\
-``
+```
 
 Temporary directories are heavily used by attackers to **drop, extract, and execute payloads**, often leaving behind short-lived but critical forensic traces.
 
@@ -91,9 +86,9 @@ Temporary directories are heavily used by attackers to **drop, extract, and exec
 
 ### Downloads Folder
 
-``bash
+```bash
 C:\Users\<USER>\Downloads\
-``
+```
 
 This is typically the **initial entry point of malware**, containing phishing attachments, downloaded payloads, and attacker-delivered tools.
 
@@ -101,11 +96,10 @@ This is typically the **initial entry point of malware**, containing phishing at
 
 ### Desktop & Documents
 
-``bash
+```bash
 C:\Users\<USER>\Desktop\
-
 C:\Users\<USER>\Documents\
-``
+```
 
 These folders often contain **user-accessible files**, staged data, or sensitive documents targeted for exfiltration by attackers.
 
@@ -126,19 +120,14 @@ To ensure **maximum forensic integrity**, user artifacts should be collected man
 
 ### Step 2 — Copy User Artifact Directories
 
-``bash
+```bash
 C:\Users\<USER>\AppData\
-
 C:\Users\<USER>\Downloads\
-
 C:\Users\<USER>\Desktop\
-
 C:\Users\<USER>\Documents\
-
 C:\Users\<USER>\AppData\Local\Temp\
-
 C:\Windows\Temp\
-``
+```
 
 ---
 
