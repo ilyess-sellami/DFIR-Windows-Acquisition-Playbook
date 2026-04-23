@@ -8,4 +8,18 @@ They are one of the most valuable sources for reconstructing attacker behavior a
 
 Unlike memory (volatile) and disk (static), event logs offer **structured, timestamped evidence** of what happened on the system.
 
+**⚠️ Golden Rule of DFIR :**
+
+> “Logs tell the story — preserve them before they are overwritten or cleared.”
+
 ---
+
+## Why Windows Event Logs are Critical?
+
+Event logs help investigators uncover:
+
+- **Authentication Activity**
+    - Successful and failed logins (brute force attempts)
+    - Logon types (interactive, remote, RDP)
+
+- Privilege Escalation
