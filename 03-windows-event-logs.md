@@ -85,3 +85,45 @@ A powerful DFIR tool designed to parse and extract Windows Event Logs into struc
 </p>
 
 A native Windows graphical interface that allows analysts to view, filter, and export event logs directly from the system in real time. It is useful for quick triage and manual inspection, but should not be relied upon as the primary acquisition method due to potential filtering and data limitations.
+
+---
+
+## Recommended Method: Manual Collection + EvtxECmd (Best Practice)
+
+To ensure **maximum forensic integrity**, the best approach is to **manually copy raw event log files first**, then parse them offline.
+
+### Step 1 — Locate Event Logs Directory
+
+``C:\Windows\System32\winevt\Logs\``
+
+---
+
+### Step 2 — Copy Logs (Recommended Method)
+
+- Use a trusted **external USB / forensic drive**
+- Copy ALL ``.evtx`` files manually from the directory
+- Avoid opening logs on the compromised system
+
+---
+
+### Step 3 — Parse Logs with EvtxECmd (Offline Analysis)
+
+Run the tool from your forensic workstation:
+
+``EvtxECmd.exe -d <path_to_logs> --csv <output_folder>``
+
+This will:
+
+- Parse all ``.evtx`` files
+- Convert them into structured CSV format
+- Enable easy analysis and SIEM ingestion
+
+---
+
+## ⚠️ Important DFIR Considerations
+
+- Always copy raw ``.evtx`` files first (gold standard)
+- Do NOT rely only on Windows Event Viewer (can filter data)
+- Check for **log clearing (Event ID 1102)**
+- Be aware of log rotation/overwrite on active systems
+- Avoid executing unnecessary tools on the suspect system
