@@ -34,8 +34,6 @@ Memory analysis helps investigators uncover:
 
 ## Best Free Tools for Memory Acquisition
 
-We focus on **trusted, widely used, free DFIR tools**:
-
 ### 1. DumpIt (Recommended)
 
 <p align="center">

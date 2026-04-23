@@ -28,8 +28,6 @@ Disk imaging allows investigators to uncover:
 
 ## Best Free Tools for Windows Disk Imaging
 
-We focus on trusted, widely used, free DFIR tools:
-
 ### 1. FTK Imager (Recommended)
 
 <p align="center">
