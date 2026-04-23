@@ -28,7 +28,7 @@ Disk imaging allows investigators to uncover:
 
 ## Best Free Tools for Windows Disk Imaging
 
-### 1. FTK Imager (Recommended)
+### [1. FTK Imager (Recommended)](https://www.exterro.com/digital-forensics-software/ftk-imager)
 
 <p align="center">
   <img src="docs/ftk-imager.png" alt="FTK Imager" />
@@ -38,7 +38,7 @@ FTK Imager is one of the most widely used forensic imaging tools in DFIR investi
 
 ---
 
-### 2. Magnet Acquire
+### [2. Magnet Acquire](https://www.magnetforensics.com/resources/magnet-acquire)
 
 <p align="center">
   <img src="docs/magnet-acquire.jpg" alt="Magnet Acquire" />
