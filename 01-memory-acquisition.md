@@ -34,7 +34,7 @@ Memory analysis helps investigators uncover:
 
 ## Best Free Tools for Memory Acquisition
 
-### 1. [DumpIt (Recommended)](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/)
+### [1. DumpIt (Recommended)](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/)
 
 <p align="center">
   <img src="docs/dumpit-ram-capture.png" alt="DumpIt RAM Capture" />
