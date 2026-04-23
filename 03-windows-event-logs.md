@@ -118,8 +118,6 @@ This will:
 - Convert them into structured CSV format
 - Enable easy analysis and SIEM ingestion
 
----
-
 **⚠️ Important DFIR Considerations :**
 
 - Always copy raw ``.evtx`` files first (gold standard)
