@@ -51,6 +51,7 @@ The most important registry hives in Windows DFIR:
 
 ``
 C:\Windows\System32\config\
+
 C:\Users\<username>\
 ``
 
