@@ -79,4 +79,9 @@ A powerful tool to parse and extract Windows Event Logs into readable formats (C
 ---
 
 ### [2. Windows Event Viewer](https://learn.microsoft.com/en-us/shows/inside/event-viewer)
+
+<p align="center">
+  <img src="docs/event-viewer.png" alt="Windows Event Viewer" />
+</p>
+
 Native Windows GUI tool to view and export logs directly from the system.
