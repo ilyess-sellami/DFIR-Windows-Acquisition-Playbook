@@ -57,21 +57,15 @@ The most important registry hives in Windows DFIR:
 
 ## Best Free Tools for Registry Analysis
 
-### 1. Registry Explorer (Recommended)
+### [1. Registry Explorer (Recommended)](https://ericzimmerman.github.io/#!index.md)
 
 A powerful forensic registry viewer that enables deep analysis of offline hive files with advanced search and bookmarking features. It simplifies complex registry structures and helps investigators quickly identify suspicious keys and persistence mechanisms.
 
 ---
 
-### 2. RegRipper
+### [2. RegRipper](https://github.com/keydet89/RegRipper4.0)
 
 A command-line forensic tool that extracts and interprets registry artifacts using predefined plugins tailored for DFIR investigations. It automates parsing and produces structured outputs that highlight relevant evidence such as persistence and user activity.
-
----
-
-### 3. KAPE
-
-A fast incident response tool used to collect and process registry hives along with other forensic artifacts from compromised systems. It supports targeted acquisition and automated parsing, making it ideal for large-scale or time-sensitive investigations.
 
 ---
 
@@ -87,7 +81,45 @@ To ensure **maximum forensic integrity**, the best approach is to **manually cop
 
 This folder contains the main system registry databases:
 
-- SAM
-- SYSTEM
-- SOFTWARE
-- SECURITY
+- ``SAM``
+- ``SYSTEM``
+- ``SOFTWARE``
+- ``SECURITY``
+
+#### User Registry Hives (FULL PATHS)
+
+Each user profile contains registry hives specific to that user:
+
+``C:\Users\<USER>\NTUSER.DAT``
+
+``C:\Users\<USER>\AppData\Local\Microsoft\Windows\UsrClass.dat``
+
+These files store user activity, persistence, and GUI/system interaction artifacts.
+
+---
+
+### Step 2 — Copy Registry Files (Recommended Method)
+
+- Use a trusted external USB / forensic drive
+
+- Copy all hive files manually:
+    - ``SAM``, ``SYSTEM``, ``SOFTWARE``, ``SECURITY``
+    - ``NTUSER.DAT``
+    - ``USRCLASS.DAT``
+
+- Avoid interacting with the registry using live tools
+
+---
+
+### Step 3 — Analyze Offline
+
+- Load hives into **[Registry Explorer](https://ericzimmerman.github.io/#!index.md)**
+- Or parse using **[RegRipper](https://github.com/keydet89/RegRipper4.0)**
+
+**⚠️ Important DFIR Considerations :**
+
+- Always copy raw registry hives first (gold standard)
+- Do NOT rely on live tools like ```regedit``
+- Be aware of registry tampering or anti-forensics techniques
+- Maintain chain of custody and hashing (MD5/SHA256)
+- Avoid modifying the suspect system during acquisition
