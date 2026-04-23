@@ -120,7 +120,7 @@ This will:
 
 ---
 
-## ⚠️ Important DFIR Considerations
+**⚠️ Important DFIR Considerations :**
 
 - Always copy raw ``.evtx`` files first (gold standard)
 - Do NOT rely only on Windows Event Viewer (can filter data)
