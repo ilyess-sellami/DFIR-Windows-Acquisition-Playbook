@@ -2,7 +2,7 @@
 
 ## Why are we collecting a disk image?
 
-After acquiring volatile system data, the next step is to capture a **full forensic image of the Windows disk**.
+After acquiring volatile system data, the next step is to capture a **forensic image of the Windows disk**.
 
 A disk image is a bit-by-bit copy of the entire storage device, including the operating system, installed applications, user data, deleted files, and hidden forensic artifacts. Unlike volatile memory, disk evidence persists after shutdown and allows deep post-incident analysis.
 
