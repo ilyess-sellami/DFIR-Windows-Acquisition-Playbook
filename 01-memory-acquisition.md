@@ -34,7 +34,7 @@ Memory analysis helps investigators uncover:
 
 ## Best Free Tools for Memory Acquisition
 
-### 1. DumpIt (Recommended)
+### 1. [DumpIt (Recommended)](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/)
 
 <p align="center">
   <img src="docs/dumpit-ram-capture.png" alt="DumpIt RAM Capture" />
@@ -44,7 +44,7 @@ DumpIt is a lightweight one-click tool used to capture full physical memory in D
 
 ---
 
-### 2. Magnet RAM Capture
+### [2. Magnet RAM Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/)
 
 <p align="center">
   <img src="docs/magnet-ram-capture.png" alt="Magnet RAM Capture" />
@@ -54,7 +54,7 @@ Magnet RAM Capture is a free forensic tool used to acquire physical memory from 
 
 ---
 
-### 3. Belkasoft Live RAM Capturer
+### [3. Belkasoft Live RAM Capturer](https://belkasoft.com/ram-capturer)
 
 <p align="center">
   <img src="docs/belkasoft-ram-capture.png" alt="Belkasoft RAM Capture" />
