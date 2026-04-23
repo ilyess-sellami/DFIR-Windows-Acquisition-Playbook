@@ -14,7 +14,7 @@ Unlike memory (volatile) and disk (static), event logs offer **structured, times
 
 ---
 
-## Why Windows Event Logs are Critical?
+## Why Windows Event Logs are Critical
 
 Event logs help investigators uncover:
 
