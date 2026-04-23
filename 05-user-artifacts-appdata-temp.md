@@ -51,7 +51,9 @@ This is the root of all user activity and contains access to every personal dire
 
 ``bash
 C:\Users\<USER>\AppData\Roaming\
+
 C:\Users\<USER>\AppData\Local\
+
 C:\Users\<USER>\AppData\LocalLow\
 ``
 
@@ -63,7 +65,9 @@ AppData is the **most abused location by malware** for storing payloads, configu
 
 ``bash
 C:\Users\<USER>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
+
 C:\Users\<USER>\AppData\Local\Microsoft\Windows\INetCache\
+
 C:\Users\<USER>\AppData\Local\Packages\
 ``
 
@@ -77,6 +81,7 @@ C:\Users\<USER>\AppData\Local\Packages\
 
 ``bash
 C:\Users\<USER>\AppData\Local\Temp\
+
 C:\Windows\Temp\
 ``
 
@@ -98,6 +103,7 @@ This is typically the **initial entry point of malware**, containing phishing at
 
 ``bash
 C:\Users\<USER>\Desktop\
+
 C:\Users\<USER>\Documents\
 ``
 
@@ -122,10 +128,15 @@ To ensure **maximum forensic integrity**, user artifacts should be collected man
 
 ``bash
 C:\Users\<USER>\AppData\
+
 C:\Users\<USER>\Downloads\
+
 C:\Users\<USER>\Desktop\
+
 C:\Users\<USER>\Documents\
+
 C:\Users\<USER>\AppData\Local\Temp\
+
 C:\Windows\Temp\
 ``
 
