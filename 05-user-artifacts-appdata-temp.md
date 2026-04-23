@@ -41,7 +41,9 @@ User directories often contain the most actionable forensic evidence:
 
 ### User Profile Root
 
-``C:\Users\<USER>\``
+```bash
+C:\Users\<USER>\
+```
 
 This is the root of all user activity and contains access to every personal directory where attackers may operate or store data.
 
@@ -111,7 +113,9 @@ To ensure **maximum forensic integrity**, user artifacts should be collected man
 
 ### Step 1 — Identify Target Users
 
-``C:\Users\``
+```bash
+C:\Users\
+```
 
 - Enumerate all user profiles
 - Focus on active, recent, or suspicious accounts
