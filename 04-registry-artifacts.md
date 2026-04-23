@@ -49,9 +49,10 @@ The most important registry hives in Windows DFIR:
 
 **Default Locations :**
 
-``C:\Windows\System32\config\``
-
-``C:\Users\<username>\``
+```bash
+C:\Windows\System32\config\
+C:\Users\<username>\
+```
 
 ---
 
@@ -85,7 +86,9 @@ To ensure **maximum forensic integrity**, the best approach is to **manually cop
 
 #### System Registry Hives
 
-``C:\Windows\System32\config\``
+```bash
+C:\Windows\System32\config\
+```
 
 This folder contains the main system registry databases:
 
@@ -98,9 +101,10 @@ This folder contains the main system registry databases:
 
 Each user profile contains registry hives specific to that user:
 
-``C:\Users\<USER>\NTUSER.DAT``
-
-``C:\Users\<USER>\AppData\Local\Microsoft\Windows\UsrClass.dat``
+```bash
+C:\Users\<USER>\NTUSER.DAT
+C:\Users\<USER>\AppData\Local\Microsoft\Windows\UsrClass.dat
+```
 
 These files store user activity, persistence, and GUI/system interaction artifacts.
 
