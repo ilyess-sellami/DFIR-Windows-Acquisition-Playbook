@@ -127,7 +127,7 @@ These files store user activity, persistence, and GUI/system interaction artifac
 **⚠️ Important DFIR Considerations :**
 
 - Always copy raw registry hives first (gold standard)
-- Do NOT rely on live tools like ```regedit``
+- Do NOT rely on live tools like ``regedit``
 - Be aware of registry tampering or anti-forensics techniques
 - Maintain chain of custody and hashing (MD5/SHA256)
 - Avoid modifying the suspect system during acquisition
