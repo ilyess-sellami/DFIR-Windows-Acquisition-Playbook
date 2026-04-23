@@ -59,11 +59,19 @@ The most important registry hives in Windows DFIR:
 
 ### [1. Registry Explorer (Recommended)](https://ericzimmerman.github.io/#!index.md)
 
+<p align="center">
+  <img src="docs/registry-explorer.png" alt="Registry Explorer" />
+</p>
+
 A powerful forensic registry viewer that enables deep analysis of offline hive files with advanced search and bookmarking features. It simplifies complex registry structures and helps investigators quickly identify suspicious keys and persistence mechanisms.
 
 ---
 
 ### [2. RegRipper](https://github.com/keydet89/RegRipper4.0)
+
+<p align="center">
+  <img src="docs/regripper.png" alt="RegRipper" />
+</p>
 
 A command-line forensic tool that extracts and interprets registry artifacts using predefined plugins tailored for DFIR investigations. It automates parsing and produces structured outputs that highlight relevant evidence such as persistence and user activity.
 
