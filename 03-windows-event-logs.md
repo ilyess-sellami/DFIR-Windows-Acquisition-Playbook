@@ -94,7 +94,9 @@ To ensure **maximum forensic integrity**, the best approach is to **manually cop
 
 ### Step 1 — Locate Event Logs Directory
 
-``C:\Windows\System32\winevt\Logs\``
+```bash
+C:\Windows\System32\winevt\Logs\
+```
 
 ---
 
@@ -110,7 +112,9 @@ To ensure **maximum forensic integrity**, the best approach is to **manually cop
 
 Run the tool from your forensic workstation:
 
-``EvtxECmd.exe -d <path_to_logs> --csv <output_folder>``
+```bash
+EvtxECmd.exe -d <path_to_logs> --csv <output_folder>
+```
 
 This will:
 
