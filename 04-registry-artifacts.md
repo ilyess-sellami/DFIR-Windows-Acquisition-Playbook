@@ -49,10 +49,8 @@ The most important registry hives in Windows DFIR:
 
 **Default Locations:**
 
-``
-C:\Windows\System32\config\
+``C:\Windows\System32\config\``
 
-C:\Users\<username>\
-``
+``C:\Users\<username>\``
 
 ---
