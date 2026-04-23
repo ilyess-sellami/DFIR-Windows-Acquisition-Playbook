@@ -74,7 +74,7 @@ The most important logs in Windows DFIR:
   <img src="docs/evtx-ecmd.png" alt="EvtxECmd" />
 </p>
 
-A powerful DFIR tool designed to parse and extract Windows Event Logs into structured formats such as CSV and JSON for advanced analysis. It enables investigators to efficiently process large volumes of .evtx files and integrate the results into SIEM platforms or timeline analysis workflows.
+A powerful DFIR tool designed to parse and extract Windows Event Logs into structured formats such as CSV and JSON for advanced analysis. It enables investigators to efficiently process large volumes of ``.evtx`` files and integrate the results into SIEM platforms or timeline analysis workflows.
 
 ---
 
