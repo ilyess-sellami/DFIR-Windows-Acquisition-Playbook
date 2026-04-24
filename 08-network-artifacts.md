@@ -33,3 +33,52 @@ Network data helps investigators uncover:
 - **Initial Access**
   - Download of payloads
   - External exploit communication
+
+---
+
+## Recommended Method
+
+### Step 1 — Live Response (If System is ON)
+
+Collect volatile data:
+
+```bash
+ipconfig /all
+arp -a
+netstat -ano
+route print
+```
+
+- Captures **active connections and network configuration**
+- Identifies potential C2 communication in real time
+
+---
+
+### Step 2 — Memory Acquisition
+
+Acquire RAM (DumpIt, etc.) to : 
+
+- Extract DNS cache, sockets, and live connections
+- Recover decrypted network data.
+
+---
+
+### Step 3 — Collect Persistent Logs
+
+```bash
+C:\Windows\System32\LogFiles\Firewall\
+C:\Windows\System32\winevt\Logs\
+```
+
+- Provides historical network activity
+- Helps reconstruct past connections
+
+---
+
+### Step 4 — Collect User-Level Network Evidence
+
+```bash
+C:\Users\<USER>\AppData\
+```
+
+- Browser artifacts reveal external communication and downloads
