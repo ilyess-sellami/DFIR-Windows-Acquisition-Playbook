@@ -80,6 +80,10 @@ It records:
 
 ### MFTECmd (MFT)
 
+<p align="center">
+  <img src="docs/mfte-cmd.png" alt="MFTECmd" />
+</p>
+
 MFTECmd is a powerful forensic tool used to parse the ``$MFT`` file and extract detailed file system metadata into structured formats such as CSV. 
 It allows investigators to analyze file creation, modification, deletion, and identify suspicious or hidden artifacts across the NTFS file system.
 
@@ -87,12 +91,20 @@ It allows investigators to analyze file creation, modification, deletion, and id
 
 ### PECmd (Prefetch)
 
+<p align="center">
+  <img src="docs/pe-cmd.png" alt="PECmd" />
+</p>
+
 PECmd is a specialized tool designed to parse Windows Prefetch files and extract execution-related metadata. 
 It provides insights into executed programs, run counts, last execution times, and associated file activity, making it essential for detecting malware execution.
 
 ---
 
 ### AmcacheParser (Amcache)
+
+<p align="center">
+  <img src="docs/amcache-parser.png" alt="AmcacheParser" />
+</p>
 
 AmcacheParser is used to analyze the ``Amcache.hve`` registry hive and extract execution evidence for programs run on the system.
 It provides valuable details such as file paths, SHA1 hashes, and first execution timestamps, even for files that have been deleted.
