@@ -59,7 +59,7 @@ route print
 Acquire RAM (DumpIt, etc.) to : 
 
 - Extract DNS cache, sockets, and live connections
-- Recover decrypted network data.
+- Recover decrypted network data
 
 ---
 
