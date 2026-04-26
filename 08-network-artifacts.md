@@ -54,7 +54,7 @@ route print
 
 ---
 
-### Step 2 — Memory Acquisition
+### [Step 2 — Memory Acquisition](01-memory-acquisition.md)
 
 Acquire RAM (DumpIt, etc.) to : 
 
@@ -75,7 +75,7 @@ C:\Windows\System32\winevt\Logs\
 
 ---
 
-### Step 4 — Collect User-Level Network Evidence
+### [Step 4 — Collect User-Level Network Evidence](05-user-artifacts-appdata-temp.md)
 
 ```bash
 C:\Users\<USER>\AppData\
