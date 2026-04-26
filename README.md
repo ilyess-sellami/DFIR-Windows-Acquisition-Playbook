@@ -12,7 +12,7 @@
 
 ## 📌 Overview
 
-You are facing a live infected Windows machine with suspicious processes, unknown network connections, and potential data exfiltration. Your task is to collect forensic evidence without missing critical artifacts or contaminating the system.
+You are facing a **live infected Windows machine** with suspicious processes, unknown network connections, and potential data exfiltration. Your task is to **collect forensic evidence without missing critical artifacts or contaminating the system**.
 
 The **DFIR Windows Acquisition Playbook** is your guide. It provides a structured and repeatable approach to forensic acquisition, helping investigators systematically collect evidence from compromised Windows systems while preserving integrity and avoiding contamination.
 
