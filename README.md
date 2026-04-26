@@ -10,17 +10,13 @@
 
 ---
 
-## ❓ Scenario
+## 📌 Overview
 
-A Windows machine is suspected to be **compromised**.
+You are facing a live infected Windows machine with suspicious processes, unknown network connections, and potential data exfiltration. Your task is to collect forensic evidence without missing critical artifacts or contaminating the system.
 
-Possible indicators include:
-- Suspicious processes or malware execution
-- Unknown network connections or C2 traffic
-- Evidence of persistence mechanisms
-- Potential data exfiltration or credential theft
+The **DFIR Windows Acquisition Playbook** is your guide. It provides a structured and repeatable approach to forensic acquisition, helping investigators systematically collect evidence from compromised Windows systems while preserving integrity and avoiding contamination.
 
-The system may still be **live or already powered off**, requiring a structured forensic acquisition approach.
+This playbook ensures you know exactly what to collect, in what order, and why it matters during an active incident response.
 
 ---
 
@@ -50,7 +46,7 @@ This playbook provides a **standardized DFIR acquisition workflow** to:
 
 ---
 
-## 📌 Operational Summary
+## 🏁 Operational Summary
 
 This repository is designed as a **structured DFIR acquisition guide** to ensure consistent, repeatable, and forensically sound evidence collection on compromised Windows systems.
 
